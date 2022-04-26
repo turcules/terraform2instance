@@ -1,7 +1,7 @@
-#!/bin/bash -xe
-#exec > >(tee /var/log/user-data.log|logger -t user-data -s 2>/dev/console) 2>&1
-#cd /home/ubuntu/
-#sudo apt install git -y
+!/bin/bash -xe
+exec > >(tee /var/log/user-data.log|logger -t user-data -s 2>/dev/console) 2>&1
+cd /home/ubuntu/
+sudo apt install git -y
 #sudo apt install nginx -y
 #git clone https://gitlab.com/entsupml/skillbox-deploy-blue-green
 #curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
